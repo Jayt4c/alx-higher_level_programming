@@ -113,8 +113,8 @@ class Rectangle(Base):
     def __str__(self):
         """Return the print() and str() representation of the Rectangle."""
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
-                                                       self.x, self.y,
-                                                       self.width, self.height) 
+                self.x, self.y,self.width, self.height)
+
     def to_dictionary(self):
         """
             returns the dictionary repr of a rect
